@@ -10,7 +10,8 @@ public class loop : MonoBehaviour
     {
         while (index >= 0)
         {
-            Debug.Log(num ++);
+            num= num + 1;
+            Debug.Log(num);
             index--;
         }
     

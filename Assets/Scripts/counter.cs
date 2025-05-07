@@ -23,7 +23,7 @@ public class counter : MonoBehaviour
                 Debug.Log("Fizz");
             else
             {
-                Debug.Log("il numero è" + numero );
+                Debug.Log(numero);
             }
         numero--;
         }
