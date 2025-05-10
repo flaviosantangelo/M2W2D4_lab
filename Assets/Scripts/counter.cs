@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class counter : MonoBehaviour
@@ -13,11 +10,11 @@ public class counter : MonoBehaviour
 
             if (numero % 3 == 0 && numero % 5 == 0)
             {
-                Debug.Log("FizzFuzz");
+                Debug.Log("FizzBuzz");
             }
             else if (numero % 5 == 0)
             {
-                Debug.Log("Fuzz");
+                Debug.Log("Buzz");
             }
             else if (numero % 3 == 0)
                 Debug.Log("Fizz");
@@ -25,14 +22,8 @@ public class counter : MonoBehaviour
             {
                 Debug.Log(numero);
             }
-        numero--;
+            numero--;
         }
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

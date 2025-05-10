@@ -5,21 +5,15 @@ using UnityEngine;
 public class loop : MonoBehaviour
 {
     public int num = 0;
-    public int index = 10;
+    private int index = 10;
     void Start()
     {
         while (index >= 0)
         {
-            num= num + 1;
+            num = num + 1;
             Debug.Log(num);
             index--;
         }
-    
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

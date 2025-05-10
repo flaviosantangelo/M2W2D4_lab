@@ -426,7 +426,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1895009480
+--- !u!1 &1741190757
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -434,35 +434,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1895009482}
-  - component: {fileID: 1895009481}
+  - component: {fileID: 1741190759}
+  - component: {fileID: 1741190758}
   m_Layer: 0
-  m_Name: counter
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1895009481
+--- !u!114 &1741190758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895009480}
+  m_GameObject: {fileID: 1741190757}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d73cf669a4a296469f20a354a0fddb2, type: 3}
+  m_Script: {fileID: 11500000, guid: e7fd29d42e3e80c4bbb52938e9948a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero: 30
---- !u!4 &1895009482
+  n: 0
+--- !u!4 &1741190759
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895009480}
+  m_GameObject: {fileID: 1741190757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -478,4 +478,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1895009482}
+  - {fileID: 1741190759}
